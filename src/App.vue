@@ -27,13 +27,20 @@ html {
         color: #FFF6E9;
         font-family: 'Roboto Mono', monospace;
         font-size: 16px;
+}
+
+.app {
         max-width: 70rem;
         margin: auto;
         padding: 0rem 1rem;
 }
+
 @media only screen and (min-width:900px) {
         html {
                 font-size: 40px;
+        }
+
+        .app {
                 max-width: 22em;
         }
 }
