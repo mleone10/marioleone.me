@@ -1,5 +1,5 @@
 <template>
-        <div class="blog">
+        <div>
                 <ul>
                         <li><router-link to="/">Entry 1</router-link></li>
                         <li>Entry 2</li>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-        name: 'Blog',
+        name: 'BlogArchive',
 }
 </script>
 

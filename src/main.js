@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
-import Blog from './components/Blog.vue'
+import BlogArchive from './components/BlogArchive.vue'
 import App from './App.vue'
 
 Vue.use(VueRouter)
@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
         routes: [
                 {path: '/', component: Home},
-                {path: '/blog', component: Blog},
+                {path: '/archive', component: BlogArchive},
         ]
 })
 
