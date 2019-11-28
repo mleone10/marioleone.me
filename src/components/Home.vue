@@ -40,7 +40,7 @@ a:focus {
         margin: 1em 0em;
         margin: auto;
         width: 225px;
-        height: 225px;
+        height: 100%;
 }
 
 @media only screen and (min-width:900px) {
