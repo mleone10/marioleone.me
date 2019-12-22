@@ -1,24 +1,9 @@
-# vue-test
+# MarioLeone.me
+> Personal blog and portolio website
 
-## Project setup
-```
-npm install
-```
+## Setup
+* Install dependencies with `npm install`
+* Run local development server with `npm run serve`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Deployment
+* WIP: Push to `master` branch to automatically build and deploy website
