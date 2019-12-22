@@ -1,4 +1,4 @@
-# MarioLeone.me
+# marioleone.me
 > Personal blog and portolio website
 
 ## Setup
