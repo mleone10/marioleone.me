@@ -6,4 +6,4 @@
 * Run local development server with `npm run serve`
 
 ## Deployment
-* WIP: Push to `master` branch to automatically build and deploy website
+* Pushes to `master` branch automatically build and deploy website
