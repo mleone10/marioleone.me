@@ -1,9 +1,7 @@
 <template>
         <div>
                 <ul>
-                        <li><router-link to="/">Entry 1</router-link></li>
-                        <li>Entry 2</li>
-                        <li>Entry 3</li>
+                        <li v-for="post in posts" :key="post.id">{{ post.title }}</li>
                 </ul>
         </div>
 </template>
@@ -11,6 +9,18 @@
 <script>
 export default {
         name: 'BlogArchive',
+        data () {
+                return {
+                        posts: []
+                }
+        },
+        mounted () {
+                this.axios
+                .get("https://margarine.marioleone.me/posts")
+                .then(response => {
+                        this.posts = response.data.posts
+                })
+        }
 }
 </script>
 
