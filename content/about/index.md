@@ -11,6 +11,6 @@ I'm Mario! I am a software engineer specializing in cloud-native architecture, C
 
 When I'm not at work, I pursue a wide array of interests, including community theater (mostly with [The Arlington Players](https://thearlingtonplayers.org/)), and D&D. I also enjoy running, journaling, reading, and discovering all that Northern Virginia has to offer.
 
-Find me on [LinkedIn](https://linkedin.com/in/mleone5244) or [Twitter](https://twitter.com/mleone5244).
+Find me on [GitHub](https://github.com/mleone10), [LinkedIn](https://linkedin.com/in/mleone5244), or [Twitter](https://twitter.com/mleone5244).
 
 ![](./profilePic.jpeg#about)
