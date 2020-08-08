@@ -18,6 +18,6 @@
   }
 
   pre code {
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: pre;
   }
