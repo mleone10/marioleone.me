@@ -1,6 +1,6 @@
 ---
 title: "Deploying a React App to GitHub Pages"
-summary: "A simple workflow opens up a world of possibilities"
+summary: "A simple workflow opens up a world of possibilities."
 date: 2020-08-07T22:33:41-04:00
 draft: false
 tags:
