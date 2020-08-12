@@ -118,6 +118,5 @@ And there you have it! Automatic React builds on pushes to the `master` branch w
 
 I hope this was a helpful guide through the process of automatically deploying a React app to GitHub Pages. Find the project's full source code [here](https://github.com/mleone10/dnd-site).
 
-Until next time,
-
+Until next time,  
 \- Mario
