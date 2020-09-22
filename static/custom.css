@@ -25,27 +25,8 @@ pre code {
 
 .social {
     position: relative;
-    top: -0.5em;
     line-height: 1em;
     text-align: center;
-}
-
-.social ul {
-    margin: 0;
-}
-
-.social ul li p {
-    display: none;
-}
-
-.social .share-icons li {
-    padding: 0 !important;
-    padding-bottom: 10px !important;
-}
-
-.social .share-btn {
-    padding: 0.25em;
-    width: 3em;
 }
 
 ul.share-icons {
@@ -57,40 +38,27 @@ ul.share-icons {
 
 ul.share-icons li {
     display: inline-block;
-    padding: 0 1em 0 0;
+    padding: 0 4px 0 4px;
+}
+
+ul.share-icons li:first-child {
+    padding-left: 0;
 }
 
 ul.share-icons li:last-child {
     padding-right: 0;
 }
 
-ul.share-icons li>* {
-    text-decoration: none;
-    border: 0;
-}
-
-ul.share-icons li>*:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important;
-}
-
 .share-btn {
     display: inline-block;
-    color: #ffffff;
     border: none;
     border-radius: 4px;
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
     outline: none;
     text-align: center;
     text-decoration: none;
-}
-
-.share-btn:hover {
-    color: #ffffff !important;
+    padding: 0.25em;
+    width: 3em;
 }
 
 .share-btn:active {
