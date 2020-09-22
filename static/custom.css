@@ -5,21 +5,131 @@
     --secondary: rgba(255, 255, 255, 0.56);
     --tertiary: rgba(255, 255, 255, 0.16);
     --content: rgba(255, 255, 255, 0.64);
-  
     --hljs-bg: #31332e;
     --code-bg: #3c3e37;
     --border: #62675b;
-  }
+}
 
-  img[src$='#about'] {
+img[src$='#about'] {
     display: block;
     margin: 0.7rem auto;
     width: 40%;
-  }
+}
 
-  pre code {
+pre code {
     overflow-x: scroll;
     white-space: pre;
     word-break: normal;
     word-wrap: normal;
-  }
+}
+
+.social {
+    position: relative;
+    top: -0.5em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.social ul {
+    margin: 0;
+}
+
+.social ul li p {
+    display: none;
+}
+
+.social .share-icons li {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+}
+
+.social .share-btn {
+    padding: 0.25em;
+    width: 3em;
+}
+
+ul.share-icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+ul.share-icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+    padding-right: 0;
+}
+
+ul.share-icons li>* {
+    text-decoration: none;
+    border: 0;
+}
+
+ul.share-icons li>*:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+ul.share-icons li>* .label {
+    display: none;
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    color: #ffffff !important;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+.share-btn .widget-social__link-icon {
+    margin: auto;
+    display: block;
+}
+
+.share-btn.twitter {
+    background: #55acee;
+}
+
+.share-btn.facebook {
+    background: #3B5998;
+}
+
+.share-btn.reddit {
+    background: #ff5700;
+}
+
+.share-btn.twitter:hover {
+    background: #4c9ad6;
+}
+
+.share-btn.facebook:hover {
+    background: #2f4779;
+}
+
+.share-btn.reddit:hover {
+    background: #e54e00;
+}
