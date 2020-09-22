@@ -78,10 +78,6 @@ ul.share-icons li>*:before {
     text-transform: none !important;
 }
 
-ul.share-icons li>* .label {
-    display: none;
-}
-
 .share-btn {
     display: inline-block;
     color: #ffffff;
@@ -108,6 +104,7 @@ ul.share-icons li>* .label {
 .share-btn .widget-social__link-icon {
     margin: auto;
     display: block;
+    fill: #e2e2e2;
 }
 
 .share-btn.twitter {
