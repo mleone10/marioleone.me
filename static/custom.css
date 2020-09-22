@@ -58,7 +58,7 @@ ul.share-icons li:last-child {
     text-align: center;
     text-decoration: none;
     padding: 0.25em;
-    width: 3em;
+    width: 5em;
 }
 
 .share-btn:active {
@@ -79,22 +79,6 @@ ul.share-icons li:last-child {
     background: #55acee;
 }
 
-.share-btn.facebook {
-    background: #3B5998;
-}
-
-.share-btn.reddit {
-    background: #ff5700;
-}
-
 .share-btn.twitter:hover {
     background: #4c9ad6;
-}
-
-.share-btn.facebook:hover {
-    background: #2f4779;
-}
-
-.share-btn.reddit:hover {
-    background: #e54e00;
 }

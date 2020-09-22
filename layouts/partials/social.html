@@ -3,20 +3,9 @@
 <section class="social">
     <ul class="share-icons">
         <li>
-            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank" rel="noopener" class="share-btn twitter">
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via=mleone5244&amp;related=mleone5244" target="_blank" rel="noopener" class="share-btn twitter">
                 {{ partial "svg/twitter.svg" (dict "class" "widget-social__link-icon") }}
             </a>
         </li>
-        <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u{{ .Title }}" target="_blank" rel="noopener" class="share-btn facebook">
-                {{ partial "svg/facebook.svg" (dict "class" "widget-social__link-icon") }}
-            </a>
-        </li>
-        <li>
-            <a href="http://www.reddit.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" rel="noopener" class="share-btn reddit">
-                {{ partial "svg/reddit.svg" (dict "class" "widget-social__link-icon") }}
-            </a>
-        </li>
-
     </ul>
 </section>
