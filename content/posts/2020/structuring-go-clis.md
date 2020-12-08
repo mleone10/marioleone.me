@@ -5,6 +5,7 @@ date: 2020-09-20T14:54:19-04:00
 draft: false
 tags:
   - Tech
+  - Go
 ---
 
 **At work, I have a bit of a reputation as "the Go guy".** Nevermind that I've never technically run an enterprise-grade production service written in Go, but I've apparently been vocal enough in my advocacy for the language that it stuck. I have, however, written a few different command line tools that I'm fairly proud of, and have established some patterns that make development much easier.
