@@ -1,7 +1,6 @@
 baseURL = "https://marioleone.me"
 languageCode = "en-us"
 title = "Mario Leone"
-theme = "paper"
 paginate = 5
 
 [params]
