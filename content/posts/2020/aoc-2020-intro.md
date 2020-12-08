@@ -22,7 +22,7 @@ For each part successfully completed, "stars" are awarded. Twenty-five days, two
 
 Advent of Code is special to me for a few reasons. Unlike other challenge sites I've come across (e.g. HackerRank, Codewars, LeetCode), AoC stands out. It's small - only 260 puzzles built by one guy - and the community is active, passionate, and welcoming. The annual nature means interest in the challenge is concentrated into a few short days, and daily puzzles mean that most participants are working on the same one simultaneously. On the [AoC subreddit](https://www.reddit.com/r/adventofcode), solutions are posted alongside visualizations, pleas for assistance, and extra challenges by community members "upping the ante".
 
-I've also been around to see it grow. According to my personal stats, I discovered AoC on 2020-12-2 and was fairly consistent in solving that year's puzzles.
+I've also been around to see it grow. According to my personal stats, I discovered AoC on 2015-12-2 and was fairly consistent in solving that year's puzzles.
 
 At work, I founded the #adventofcode Slack channel and have been a vocal advocate from the beginning. Now 96 members strong, we have our own internal discussions every morning and are planning to hold a series of lightning talks in January to celebrate the event's conclusion. This gives me exposure to engineers I otherwise would have never encountered, and contributes to my personal brand of an excited, growth-oriented engineer.
 
